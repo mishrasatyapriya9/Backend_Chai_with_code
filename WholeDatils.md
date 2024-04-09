@@ -48,9 +48,10 @@ https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
 
 
 accessToken
-RefreshToken
+RefreshToken 
+#### refresh token used to make another accesstoken for the user ,which user accesstoken experies ,so donto ask them to login again just create the Accestoken using the refreshtoken stores in the database model or in the locally like localstorage ,session, cookie.
 
-localstorage,cookies,
+#### localstorage,cookies,session used for storing the data in frontend ,see how to use all of these 
 #### These are two different model but we gonna join throw leftjoin aggregtaion , to find the subscription and watch history things 
 ![Screenshot 2024-04-09 002855](https://github.com/mishrasatyapriya9/Backend_Chai_with_code/assets/106869525/70989920-5336-4ac3-a97f-0b2043f7d028)
 ![Screenshot 2024-04-09 003330](https://github.com/mishrasatyapriya9/Backend_Chai_with_code/assets/106869525/46519a30-575d-4d25-bad1-92ebc9a2afb2)
